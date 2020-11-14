@@ -1,6 +1,5 @@
 
-# Project Title
-Professional READ ME Generator
+# Professional READ ME Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -22,7 +21,7 @@ To install the necessary dependencies, run the following command
 
 ## Usage
 
-Once downloaded, just run through the installation process, run with node, repsond to the prompts and it will generate the re
+Once downloaded, just run through the installation process, run with node, repsond to the prompts and it will generate the read me for you!
 
 
 ## License

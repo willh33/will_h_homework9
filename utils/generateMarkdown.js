@@ -9,8 +9,7 @@ const licenses = {
 // function to generate markdown for README
 function generateMarkdown( {username, email, project, description, license, dependencies, tests, usage, contribute} ) {
   return `
-# Project Title
-${project}
+# ${project}
 
 ${licenses[license]}
 
@@ -25,28 +24,28 @@ ${description}
 * [Tests](#tests)
 * [Questions](#questions)
 
-##Installation
+## Installation
 To install the necessary dependencies, run the following command
 
 \`${dependencies}\`
 
-##Usage
+## Usage
 
 ${usage}
 
 
-##License
+## License
 This project is licensed under ${license}
 
-##Contributing
+## Contributing
 ${contribute}
 
-##Tests
+## Tests
 To run tests, run the following command
 
 \`${tests}\`
 
-##Questions
+## Questions
 If you have questions about the repo, open an issue or contact me directly at ${email}. You can find more of my work at ${username}
   `
 }
